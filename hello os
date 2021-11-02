@@ -12,3 +12,13 @@ yum install gcc
 
 1.4 make all
 1.5 copy HelloOS.bin /boot
+
+1.6 grub.cfg config
+menuentry 'HelloOS' {
+    insmod gzip
+    insmod part_msdos
+    insmod xfs
+    set root='hd0,msdos1'
+    multiboot /HelloOS.bin
+    boot
+}
