@@ -7,3 +7,8 @@ https://gitee.com/liuyangyangweb/cosmos.git
 1.2 install nasm  gcc
 yum install build-essential nasm
 yum install gcc
+
+1.3 vi grub.cfg
+
+1.4 make all
+1.5 copy HelloOS.bin /boot
