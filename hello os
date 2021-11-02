@@ -15,7 +15,7 @@ yum install gcc
 
 1.6 grub.cfg config
 menuentry 'HelloOS' {
-    insmod gzip
+    insmod gzio
     insmod part_msdos
     insmod xfs
     set root='hd0,msdos1'
