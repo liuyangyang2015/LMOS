@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/user/CLionProjects/LMOS/Demo/Hello.c
+printf.h
+-
+Hello.h
+/Users/user/CLionProjects/LMOS/Demo/Hello.h
+
+/Users/user/CLionProjects/LMOS/Demo/Hello.h
+
