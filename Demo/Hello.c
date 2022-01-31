@@ -4,8 +4,19 @@
 
 #include <printf.h>
 #include "Hello.h"
- int main(){
-   printf("hello world !");
-   return 1;
+
+int main() {
+    printf("hello world ! \n");
+
+    char a = 'A';
+    char* b = &a;
+    char c = *b;
+
+    int d = 100;
+    int* e=&d;
+    int f=*e;
+
+    printf("Hello, YY!");
+    return 1;
 }
 
