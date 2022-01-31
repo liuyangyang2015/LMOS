@@ -2,7 +2,8 @@
 // Created by user on 2021/11/30.
 //
 
-#include <printf.h>
+//#include <printf.h>
+#include <stdio.h>
 #include "Hello.h"
 
 int main() {
