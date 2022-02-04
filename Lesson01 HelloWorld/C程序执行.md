@@ -6,6 +6,9 @@
 #### gcc HelloWorld.s  -c -o HelloWorld.o   // 汇编 转换成可链接的二进制程序
 #### gcc HelloWorld.o -o HelloWorld
 
+####  gcc -O2 -S test2.c -m32 -fno-omit-frame-pointer
+
+
 #### gcc HelloWorld   -o HelloWorld
 
 
